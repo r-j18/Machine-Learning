@@ -1,0 +1,15 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all datasets (Crucial for ML)
+*.csv
+*.xlsx
+*.json
+
+# Ignore local environment settings
+.env
+venv/
