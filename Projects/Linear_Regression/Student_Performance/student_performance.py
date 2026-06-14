@@ -85,12 +85,36 @@ print(coef_df.sort_values(
     ascending=False
 ))
 
+
+#Random Forest Comparison
+from sklearn.ensemble import RandomForestRegressor
+
+model = RandomForestRegressor(n_estimators= 100, random_state= 42)
+
+model.fit(X_train, y_train)
+
+print("Model Trained Successfully")
+
+y_pred2 = model.predict(X_test)
+
+print("First 5 actual scores:", y_test[:5])
+print("First 5 model scores:", y_pred2[:5])
+
+from sklearn.metrics import mean_squared_error, r2_score
+
+mse = mean_squared_error(y_test, y_pred2)
+
+r2= r2_score(y_test, y_pred2)
+
+print("\nMean Squared Error: ", mse)
+print("R2 percentage: ", r2*100)
+
 import matplotlib.pyplot as plt
 
-plt.scatter(y_test, y_pred)
+plt.scatter(y_pred2, y_pred)
 
-plt.xlabel("Actual")
+plt.xlabel("Forest")
 
-plt.ylabel("Predicted")
+plt.ylabel("Linear")
 
 plt.show()
