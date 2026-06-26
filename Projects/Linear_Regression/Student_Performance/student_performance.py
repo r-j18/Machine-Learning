@@ -1,7 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv(
-    r"D:\Coding\ML\Projects\Linear_Regression\Student_Performance\data\StudentPerformanceFactors.csv"
+    r"Projects/Linear_Regression/Student_Performance/data/StudentPerformanceFactors.csv"
 )
 
 # print(df.head())
