@@ -118,9 +118,3 @@ plt.xlabel("Forest")
 plt.ylabel("Linear")
 
 plt.show()
-
-print("Linear Train:", lr.score(X_train, y_train))
-print("Linear Test :", lr.score(X_test, y_test))
-
-print("RF Train:", rf.score(X_train, y_train))
-print("RF Test :", rf.score(X_test, y_test))
