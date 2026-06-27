@@ -1,0 +1,43 @@
+MSSubClass (Type and Age of House)
+1. Catagorical data not numerical
+2. Might have high weightage
+3. 160 or 180 might have the highest price
+
+MSZoning (Zone of property)
+1. Catagorical
+2. Moderate weightage
+3. I and RH might have highest price
+
+LotArea (whole propert size)
+1. Numerical
+2. Can have high weightage if zoning is correct
+
+Utilities (Facilities available nearby)
+1. Catagorical
+2. AllPub is highest
+3. Moderate weightage
+
+Neighborhood (Locality of property)
+1. Catagorical
+2. High weightage
+
+HouseStyle (Type of house)
+1. Catagorical
+2. Moderate weightage
+
+OverallQual (Quality of house materials and finishing)
+1. Numerical
+2. 10 is best
+3. High weightage
+
+OverallCond (Condition of the house)
+1. Numerical
+2. 10 is best
+3, High weightage
+
+YearBuilt and YearRemodAdd 
+1. Numerical
+2. Can calculate age later and a new varible as WasRemodled (Yes or No)
+3. High weightage
+
+

@@ -10,6 +10,9 @@ __pycache__/
 *.xlsx
 *.json
 
+# Ignore document files
+*.pdf
+
 # Ignore local environment settings
 .env
 venv/
