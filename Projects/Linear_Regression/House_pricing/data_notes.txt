@@ -25,7 +25,7 @@ HouseStyle (Type of house)
 1. Catagorical
 2. Moderate weightage
 
-OverallQual (Quality of house materials and finishing)
+OverallQual (Quality of house materials and finishing) [BEST ACCORDING TO BOX PLOT]
 1. Numerical
 2. 10 is best
 3. High weightage
@@ -40,4 +40,32 @@ YearBuilt and YearRemodAdd
 2. Can calculate age later and a new varible as WasRemodled (Yes or No)
 3. High weightage
 
+LotFrontage and Electrical - Missing means bad data forgot to write
 
+Neighborhood              Ranking 
+
+1. NridgHt    315000.0   -  10
+2. NoRidge    301500.0   -  10
+3. StoneBr    278000.0   -  10
+4. Timber     228475.0   -  9
+5. Somerst    225500.0   -  9
+6. Veenker    218000.0   -  8
+7. Crawfor    200624.0   -  8
+8. ClearCr    200250.0   -  8
+9. CollgCr    197200.0   -  7
+10. Blmngtn    191000.0  -  7
+11. NWAmes     182900.0  -  6
+12. Gilbert    181000.0  -  6
+13. SawyerW    179900.0  -  6
+14. Mitchel    153500.0  -  5
+15. NPkVill    146000.0  -  4
+16. NAmes      140000.0  -  4
+17. SWISU      139500.0  -  4
+18. Blueste    137500.0  -  3
+19. Sawyer     135000.0  -  3
+20. BrkSide    124300.0  -  2
+21. Edwards    121750.0  -  2
+22. OldTown    119000.0  -  2
+23. BrDale     106000.0  -  1
+24. IDOTRR     103000.0  -  1
+25. MeadowV     88000.0  -  1
